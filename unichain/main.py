@@ -6,6 +6,7 @@ from playwright.async_api import async_playwright
 from fake_useragent import UserAgent
 from dotenv import load_dotenv
 import random
+from decimal import Decimal
 
 load_dotenv()
 
@@ -181,14 +182,15 @@ async def process_wallet(private_key, wallet_path):
 
             # Проверяем баланс
         initial_eth = bridge.check_eth_balance()
-        MIN_AMOUNT = 0.001
-        initial_eth = bridge.check_eth_balance()
+        MIN_AMOUNT = Decimal('0.001')
 
         if initial_eth < MIN_AMOUNT:
             print(f"Недостаточно ETH. Есть: {initial_eth}, Нужно минимум: {MIN_AMOUNT}")
             return
-        max_amount = initial_eth - 0.0005  # Оставляем немного на газ
-        AMOUNT = round(random.uniform(MIN_AMOUNT, max_amount), 6)  # Округляем до 6 знаков после запятой
+        max_amount = initial_eth - Decimal('0.0005')
+        max_amount_float = float(max_amount)
+        min_amount_float = float(MIN_AMOUNT)
+        AMOUNT = round(random.uniform(min_amount_float, max_amount_float), 6)  # Округляем до 6 знаков после запятой
             # ETH -> WETH
         success = await bridge.bridge_eth_to_weth(AMOUNT)
         if success:

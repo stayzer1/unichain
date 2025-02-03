@@ -26,6 +26,7 @@ Include/
 .installed.cfg
 *.egg
 pyvenv.cfg
+wallets_input.txt
 
 # Virtual Environment
 venv/
