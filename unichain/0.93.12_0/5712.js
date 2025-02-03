@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[5712],{605712:(e,s,t)=>{t.r(s),t.d(s,{default:()=>n});const n="- 支持 Keystone USB 连接\n- 优化以太坊上 maxPriorityFee计算\n- 支持 X1 Testnet"}}]);

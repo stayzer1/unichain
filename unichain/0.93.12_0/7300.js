@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[7300],{507300:(b,a,e)=>{e.r(a),e.d(a,{default:()=>s});const s="- 支持 Shibarium 链\n- 支持土耳其语"}}]);

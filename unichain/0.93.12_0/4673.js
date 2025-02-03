@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[4673],{324673:(a,e,n)=>{n.r(e),n.d(e,{default:()=>s});const s="- 支持西班牙语\n- 支持导入 Cobo Argus 地址\n- 支持 zkSync Era Goerli 和 Manta Pacific Testnet 链"}}]);

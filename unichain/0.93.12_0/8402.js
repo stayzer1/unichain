@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[8402],{208402:(e,t,a)=>{a.r(t),a.d(t,{default:()=>n});const n="- 支持 4 条测试网，包括 AltLayer Testnet，Zora Goerli，Taiko Grimsvotn L2 Testnet，Taiko Eldfell L3 Testnet\n- 支持法语\n- Send 支持留言和 Hex Data 功能\n- 授权管理功能支持查看用户当前余额\n- Cobo Argus 支持 Base 链"}}]);

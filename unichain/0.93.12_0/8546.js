@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[8546],{418546:(e,a,b)=>{b.r(a),b.d(a,{default:()=>s});const s="- Swap、Bridge 和 Send 功能支持全屏模式"}}]);

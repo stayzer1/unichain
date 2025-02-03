@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[6010],{726010:(e,n,t)=>{t.r(n),t.d(n,{default:()=>s});const s="- ETH 链交易支持更多广播模式：省 gas 模式和 MEV 保护模式\n- 支持 WalletConnect v2\n- 支持 Scroll 链\n- 新增4条测试网： Ethereum Holesky Testnet、Kava Testnet、Songbird Coston Testnet、Klaytn Baobab Testnet\n- 支持德语\n- Cobo Argus 支持 Mantle 链"}}]);

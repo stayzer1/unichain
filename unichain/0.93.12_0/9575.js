@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[9575],{849575:(e,s,t)=>{t.r(s),t.d(s,{default:()=>a});const a="- 集成机构钱包 MPCVault\n- 新增2条测试网：Aurora Testnet、Cronos Testnet\n- 优化 Swap 场景的安全规则"}}]);

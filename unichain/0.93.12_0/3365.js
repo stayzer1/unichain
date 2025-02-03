@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[3365],{83365:(e,b,s)=>{s.r(b),s.d(b,{default:()=>n});const n="- 支持 RARI 链\n- 支持 Hubble 链\n- 新增测试网：RARI Testnet"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[4519],{134519:(b,a,s)=>{s.r(a),s.d(a,{default:()=>e});const e="- 推出 Rabby 积分第二期\n- 优化签名页 gas 模块\n- 支持 SLIP39"}}]);

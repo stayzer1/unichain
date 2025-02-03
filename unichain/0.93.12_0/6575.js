@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[6575],{206575:(a,s,e)=>{e.r(s),e.d(s,{default:()=>r});const r="- 支持 Free Gas 于 14 条新链：Aurora, Blast, Cronos, Fraxtal, Gnosis Chain, Manta Pacific, Mantle, Metis, Mode, opBNB, Pulse, Scroll, zkSync Era, Zora"}}]);

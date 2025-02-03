@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[4901],{644901:(a,b,e)=>{e.r(b),e.d(b,{default:()=>r});const r="- 支持 MAP Protocol 链\n- 支持 Fraxtal 链\n- 新增在已有助记词下添加地址"}}]);

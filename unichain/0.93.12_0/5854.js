@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[5854],{485854:(b,a,e)=>{e.r(a),e.d(a,{default:()=>n});const n="- 主网支持 SX 链\n- 主网支持 PlatON 链\n- Bitbox02 硬件钱包支持 EIP-1559\n"}}]);

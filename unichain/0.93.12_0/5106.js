@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[5106],{185106:(a,b,e)=>{e.r(b),e.d(b,{default:()=>s});const s="- Rabby Swap 支持 Mantle、Mode 和 Scroll 链\n- Rabby Swap 新增 Odos 和 ParaSwap 聚合器"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[9203],{579203:(a,b,n)=>{n.r(b),n.d(b,{default:()=>e});const e="- 在 Rabby 交易聚合器中支持了 KyberSwap。\n- 支持了新的语言 - 中文。\n- 支持了 opBNB 链。\n- 支持了 Mantle 测试网。\n- 在基础链上支持了安全地址。\n- 支持了在连接 Dapps 时“忽略全部”风险。"}}]);

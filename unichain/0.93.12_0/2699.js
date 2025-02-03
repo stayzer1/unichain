@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[2699],{202699:(a,e,n)=>{n.r(e),n.d(e,{default:()=>s});const s="- 支持连接 Coinbase 手机钱包\n- 优化 Pending 交易详情页\n- 新增2条测试网：Astar Shibuya Testnet、Astar zKatana Testnet"}}]);

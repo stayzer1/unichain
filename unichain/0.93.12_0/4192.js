@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[4192],{654192:(a,n,b)=>{b.r(n),b.d(n,{default:()=>e});const e="- 使用私钥/助记词地址时，支持批量取消授权\n- 增加查看 DeBank Hi 信息的入口\n- Rabby Points 功能移动至“更多”\n- 简化 Safe 地址签名流程\n- Cobo Argus 地址支持 Manta、Mode 和 Scroll 链"}}]);

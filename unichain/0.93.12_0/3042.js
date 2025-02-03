@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[3042],{383042:(e,a,s)=>{s.r(a),s.d(a,{default:()=>t});const t="- 支持 Dark Mode\n- 新增 2 条测试网：Fraxchain Testnet、Pego Testnet"}}]);

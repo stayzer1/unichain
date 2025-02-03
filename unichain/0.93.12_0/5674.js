@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[5674],{225674:(e,t,n)=>{n.r(t),n.d(t,{default:()=>s});const s="- 支持用户针对未支持的链和签名类型发送请求\n- Safe地址支持取消交易\n- 支持 Manta Pacific 链\n- 支持5条测试网，包括DFK Testnet、WEMIX Testnet、Step Testnet、Ethereum Classic Mordor Testnet、Fusion Testnet\n- 支持俄语"}}]);

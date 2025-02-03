@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[8598],{868598:(e,a,n)=>{n.r(a),n.d(a,{default:()=>s});const s="## Feature:\n- 支持导入带 passphrase 的助记词地址\n- 助记词地址支持切换 HDPath\n- 支持连接 imToken Offline \n## Fix:\n- 修复 OP Stack 系列的链 L1 Fee 估算错误的 bug\n- 修复 GridPlus 不能签名 typedData 的 bug"}}]);

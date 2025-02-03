@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[7562],{607562:(e,t,a)=>{a.r(t),a.d(t,{default:()=>n});const n="- 支持 Loot 主网\n- 新增支持6条测试网，包括 Loot 测试网、opBNB 测试网、Tenet 测试网、Ethereum Sepolia、Scroll Sepolia、和ZetaChain Athens-3 Testnet \n- 优化签名页体验"}}]);

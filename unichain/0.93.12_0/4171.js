@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[4171],{314171:(e,a,s)=>{s.r(a),s.d(a,{default:()=>t});const t="- Ethereum 链Swap时支持选择“优先使用MEV模式”\n- 支持 Pego 链\n- 支持 Frame Testnet"}}]);

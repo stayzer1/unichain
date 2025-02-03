@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[3550],{793550:(e,n,t)=>{t.r(n),t.d(n,{default:()=>s});const s="- 地址列表支持按照地址类型和地址备注排序\n- 支持 PGN 链\n- 支持4条测试网，包括EvmOS Testnet、BitTorrent Donau Testnet、Flare Coston2 Testnet、PGN Sepolia\n- Swap 支持 Base 链\n- 支持葡语（巴西）"}}]);

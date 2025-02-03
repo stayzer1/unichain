@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[267],{860267:(e,t,s)=>{s.r(t),s.d(t,{default:()=>n});const n="- 支持6条测试网，包括Avalanche Testnet，Shibarium Puppynet Testnet，Metis Goerli，Arbitrum Sepolia，OKB Testnet，Stylus Testnet\n- 支持乌克兰语"}}]);

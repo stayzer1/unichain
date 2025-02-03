@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[1963],{181963:(n,e,a)=>{a.r(e),a.d(e,{default:()=>s});const s="- 新增 Pending 交易详情页\n- 优化助记词导入体验\n- 支持 Balance change 中展示美元差值\n- 支持 Swap 报价包含 Gas\n- 支持 Cobo Argus 签名解析\n- 新增3条测试网，包括 Omni Testnet、Taiko Jolnir Testnet、Synapse Sepolia Testnet"}}]);

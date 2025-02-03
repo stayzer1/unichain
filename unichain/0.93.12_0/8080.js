@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[8080],{708080:(e,n,s)=>{s.r(n),s.d(n,{default:()=>b});const b="- Scroll 链支持预估L1 fee\n- 新增测试网 Conflux Testnet\n- 支持日语\n"}}]);

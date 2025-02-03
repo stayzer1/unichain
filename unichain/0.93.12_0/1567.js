@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[1567],{631567:(a,e,n)=>{n.r(e),n.d(e,{default:()=>s});const s="- 优化 Swap 功能\n- Safe 地址支持 Blast、Mantle、Sonic、World Chain"}}]);

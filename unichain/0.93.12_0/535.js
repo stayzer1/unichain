@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[535],{650535:(n,e,s)=>{s.r(e),s.d(e,{default:()=>a});const a="- 支持 Dymension 链\n- 支持 Mode 链\n- 支持 Merlin 链\n- 支持 Utila 机构钱包\n"}}]);

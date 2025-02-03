@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[4702],{484702:(e,s,t)=>{t.r(s),t.d(s,{default:()=>b});const b="- 支持自定义测试网，点击“More”>“Custom Testnet”，支持添加任何EVM链"}}]);

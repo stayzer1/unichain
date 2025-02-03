@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[7928],{777928:(e,t,s)=>{s.r(t),s.d(t,{default:()=>a});const a="- 新增 Dapp 搜索功能\n- 优化深色模式\n- 新增 2 条测试网：RSK Testnet、 Dexalot Testnet"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[5983],{776471:(e,a,s)=>{s.r(a),s.d(a,{default:()=>b});const b="- 支持 Beam 链\n- 支持 Beam Testnet 测试网"}}]);

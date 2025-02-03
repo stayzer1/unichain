@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[5027],{375027:(e,n,t)=>{t.r(n),t.d(n,{default:()=>s});const s="- Safe 支持 Polygon ZkEVM、zkSync Era、Celo\n- 支持 FON 链\n- 支持 Bifrost 链\n- 测试网支持 Bifrost Testnet、Berachain Artio Testnet"}}]);

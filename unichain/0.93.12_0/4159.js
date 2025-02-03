@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[4159],{814159:(e,n,a)=>{a.r(n),a.d(n,{default:()=>b});const b="- 新增 Bridge 功能\n- Swap 新增 OpenOcean 和 KyberSwap\n- 新增 Ecology 功能\n- 支持 DBK Chain\n- 用于 Receive 资产的二维码已移动至钱包顶部\n- “充值 Gas”功能移动至“更多”中"}}]);

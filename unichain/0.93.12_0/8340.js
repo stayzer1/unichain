@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[8340],{528340:(a,s,b)=>{b.r(s),b.d(s,{default:()=>e});const e="- 支持 Karak 链\n- 支持 Astar zkEVM 链"}}]);

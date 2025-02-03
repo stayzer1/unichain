@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[8651],{238651:(e,a,t)=>{t.r(a),t.d(a,{default:()=>s});const s="- 优化 Dapp 搜索展示结果\n- 优化 Rabby 积分赚取流程\n- 支持 Dexalot 链\n- 支持 Xai 链\n- 新增 4 条测试网：SatoshiVM Testnet 、Xai Goerli Testnet、Xai Sepolia Testnet 、Blast Sepolia Testnet "}}]);

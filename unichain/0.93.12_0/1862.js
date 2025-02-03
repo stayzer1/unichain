@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[1862],{481862:(e,s,a)=>{a.r(s),a.d(s,{default:()=>b});const b="- 支持 Blast 链\n- 支持 Horizen EON 链"}}]);

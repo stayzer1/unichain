@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[4176],{814176:(e,r,a)=>{a.r(r),a.d(r,{default:()=>b});const b="- 支持 Ledger Clear Signing\n- Trezor 支持 Ledger Live HD Path"}}]);

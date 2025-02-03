@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[7036],{597036:(a,e,s)=>{s.r(e),s.d(e,{default:()=>b});const b="- 优化 Swap 报价展示\n- Send Max 时支持选择预留 gas 费用"}}]);

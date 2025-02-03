@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[4985],{354985:(a,b,e)=>{e.r(b),e.d(b,{default:()=>s});const s="- Swap 支持 Sonic 链"}}]);

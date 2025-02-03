@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[6951],{506951:(e,a,r)=>{r.r(a),r.d(a,{default:()=>n});const n="- 支持 Permit2 授权管理\n- 支持 Permit2 批量取消授权\n- 支持 NGRAVE ZERO 硬件钱包\n- Safe 地址支持 Linea、Scroll、X Layer"}}]);

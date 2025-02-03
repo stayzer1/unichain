@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrabby=self.webpackChunkrabby||[]).push([[6256],{746256:(n,t,e)=>{e.r(t),e.d(t,{default:()=>s});const s="- 交易记录中支持隐藏scam交易\n- 支持 Function X 链\n- 支持 Function X Dhobyghaut Testnet 测试网"}}]);
