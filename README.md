@@ -15,7 +15,7 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/stayz/unichain.git
+git clone https://github.com/stayzer1/unichain.git
 ```
 
 2. Установите зависимости:
