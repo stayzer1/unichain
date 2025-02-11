@@ -40,7 +40,7 @@ WETH_ADDRESS = "0x4200000000000000000000000000000000000006"  # Адрес WETH �
 class UnichainBridge:
     def __init__(self, private_key):
         # Проверяем подключение к сети
-        self.w3 = Web3(Web3.HTTPProvider("https://unichain-sepolia.infura.io/v3/656c3f5d53c6415eac13761f9e552739"))
+        self.w3 = Web3(Web3.HTTPProvider("https://unichain-sepolia-rpc.publicnode.com"))
         if not self.w3.is_connected():
             raise Exception("Failed to connect to Unichain network")
 

@@ -67,7 +67,7 @@ class WalletStatus:
 def check_nft_balances(address):
     """Проверяет балансы обоих NFT"""
     try:
-        w3 = Web3(Web3.HTTPProvider("https://unichain-sepolia.infura.io/v3/656c3f5d53c6415eac13761f9e552739"))
+        w3 = Web3(Web3.HTTPProvider("https://unichain-sepolia-rpc.publicnode.com"))
 
         if not w3.is_connected():
             print("Ошибка подключения к сети Unichain")
