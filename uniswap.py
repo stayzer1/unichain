@@ -43,25 +43,20 @@ class UnichainBridge:
         self.w3 = Web3(Web3.HTTPProvider("https://unichain-sepolia.infura.io/v3/656c3f5d53c6415eac13761f9e552739"))
         if not self.w3.is_connected():
             raise Exception("Failed to connect to Unichain network")
-        print("Successfully connected to Unichain network")
 
         # Проверяем chain_id
         chain_id = self.w3.eth.chain_id
-        print(f"Connected to chain ID: {chain_id}")
 
         self.account = Account.from_key(private_key)
-        print(f"Account address: {self.account.address}")
 
         # Проверяем контракт WETH
         weth_address = Web3.to_checksum_address(WETH_ADDRESS)
-        print(f"WETH contract address: {weth_address}")
 
         try:
             # Пробуем получить код контракта
             contract_code = self.w3.eth.get_code(weth_address)
             if contract_code == b'':
                 raise Exception("No contract code found at the specified address")
-            print("WETH contract code found")
         except Exception as e:
             print(f"Error checking WETH contract: {e}")
             raise
@@ -70,7 +65,6 @@ class UnichainBridge:
             address=weth_address,
             abi=WETH_ABI
         )
-        print("WETH contract initialized")
 
     def check_eth_balance(self):
         balance = self.w3.eth.get_balance(self.account.address)
@@ -83,10 +77,6 @@ class UnichainBridge:
     async def bridge_eth_to_weth(self, amount_in_eth):
         try:
             amount_in_wei = self.w3.to_wei(amount_in_eth, 'ether')
-
-            print(f"Starting bridge of {amount_in_eth} ETH to WETH")
-            print(f"Initial ETH balance: {self.check_eth_balance()}")
-            print(f"Initial WETH balance: {self.check_weth_balance()}")
 
             # Проверяем nonce
             nonce = self.w3.eth.get_transaction_count(self.account.address)
@@ -114,23 +104,17 @@ class UnichainBridge:
                 'chainId': self.w3.eth.chain_id
             })
 
-            print("Transaction built successfully")
 
             # Подписываем транзакцию
             signed_txn = self.w3.eth.account.sign_transaction(transaction, self.account.key)
-            print("Transaction signed successfully")
 
             # Отправляем транзакцию
             tx_hash = self.w3.eth.send_raw_transaction(signed_txn.raw_transaction)
-            print(f"Transaction sent: {tx_hash.hex()}")
 
             # Ждем подтверждения транзакции
             receipt = self.w3.eth.wait_for_transaction_receipt(tx_hash)
 
             if receipt['status'] == 1:
-                print("Transaction confirmed!")
-                print(f"Final ETH balance: {self.check_eth_balance()}")
-                print(f"Final WETH balance: {self.check_weth_balance()}")
                 return True
             else:
                 print("Transaction failed!")
@@ -143,10 +127,6 @@ class UnichainBridge:
     async def weth_to_eth(self, amount_in_eth):
         try:
             amount_in_wei = self.w3.to_wei(amount_in_eth, 'ether')
-
-            print(f"Starting unwrap of {amount_in_eth} WETH to ETH")
-            print(f"Initial ETH balance: {self.check_eth_balance()}")
-            print(f"Initial WETH balance: {self.check_weth_balance()}")
 
             # Проверяем nonce
             nonce = self.w3.eth.get_transaction_count(self.account.address)
@@ -172,23 +152,16 @@ class UnichainBridge:
                 'chainId': self.w3.eth.chain_id
             })
 
-            print("Transaction built successfully")
-
             # Подписываем транзакцию
             signed_txn = self.w3.eth.account.sign_transaction(transaction, self.account.key)
-            print("Transaction signed successfully")
 
             # Отправляем транзакцию
             tx_hash = self.w3.eth.send_raw_transaction(signed_txn.raw_transaction)
-            print(f"Transaction sent: {tx_hash.hex()}")
 
             # Ждем подтверждения транзакции
             receipt = self.w3.eth.wait_for_transaction_receipt(tx_hash)
 
             if receipt['status'] == 1:
-                print("Transaction confirmed!")
-                print(f"Final ETH balance: {self.check_eth_balance()}")
-                print(f"Final WETH balance: {self.check_weth_balance()}")
                 return True
             else:
                 print("Transaction failed!")
