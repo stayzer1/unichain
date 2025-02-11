@@ -107,9 +107,15 @@ class UnichainBridge:
 
             # Подписываем транзакцию
             signed_txn = self.w3.eth.account.sign_transaction(transaction, self.account.key)
-
             # Отправляем транзакцию
-            tx_hash = self.w3.eth.send_raw_transaction(signed_txn.raw_transaction)
+            try:
+                raw_tx = signed_txn.rawTransaction
+            except AttributeError:
+                try:
+                    raw_tx = signed_txn.raw_transaction
+                except AttributeError:
+                    return False
+            tx_hash = self.w3.eth.send_raw_transaction(raw_tx)
 
             # Ждем подтверждения транзакции
             receipt = self.w3.eth.wait_for_transaction_receipt(tx_hash)
@@ -154,9 +160,16 @@ class UnichainBridge:
 
             # Подписываем транзакцию
             signed_txn = self.w3.eth.account.sign_transaction(transaction, self.account.key)
-
+            try:
+                raw_tx = signed_txn.rawTransaction
+            except AttributeError:
+                try:
+                    raw_tx = signed_txn.raw_transaction
+                except AttributeError:
+                    print("[DEBUG] Neither rawTransaction nor raw_transaction found!")
+                    return False
             # Отправляем транзакцию
-            tx_hash = self.w3.eth.send_raw_transaction(signed_txn.raw_transaction)
+            tx_hash = self.w3.eth.send_raw_transaction(raw_tx)
 
             # Ждем подтверждения транзакции
             receipt = self.w3.eth.wait_for_transaction_receipt(tx_hash)
